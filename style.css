@@ -1,0 +1,96 @@
+*{
+box-sizing: content-box;
+margin-top: 0;
+margin-left: 0;
+}
+.grid{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 47, 45);
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    grid-template-rows: repeat(1, 300px);
+}
+
+.packet{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(206, 86, 17);
+    justify-content: end;
+    align-items: center;
+}
+
+#panier{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.card{
+    position: relative;
+    height: 250px;
+    width: 230px;
+    border-radius: 5px;
+    border: solid 1px rgb(217, 217, 217);
+}
+
+
+.pictures{
+    object-fit: cover;
+    left:20px;
+    height: 200px;
+    width: 230px;
+}
+
+.mnaBox{
+    border: solid 2px rgb(46, 45, 42);
+    padding: 10px;
+    margin-right: 5px;
+    height: 10%;
+    width: 230px;
+    background: wheat;
+    font-size: 14px;
+}
+
+.mnaBox1{
+    border: solid 2px rgb(46, 45, 42);
+    padding: 10px;
+    margin-right: 5px;
+    height: 10%;
+    width: 230px;
+    background: wheat;
+    font-size: 14px;
+}
+.mnaBox2{
+    border: solid 2px rgb(46, 45, 42);
+    padding: 10px;
+    margin-right: 5px;
+    height: 10%;
+    width: 230px;
+    background: wheat;
+    font-size: 14px;
+}
+.mnaBox3{
+    border: solid 2px rgb(46, 45, 42);
+    padding: 10px;
+    margin-right: 5px;
+    height: 10%;
+    width: 150px;
+    background: wheat;
+    font-size: 14px;
+}
+
+
+p{
+    
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+    color: aliceblue;
+}
